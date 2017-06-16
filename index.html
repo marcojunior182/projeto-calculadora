@@ -7,6 +7,9 @@
     <meta name="description" content="Página de Calculos simples"/>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="shortcut icon" href="assets\img\favicon.png" type="image/x-icon">
+    <script type="text/javascript" src="assets/js/script.js">
+
+    </script>
     <title>Calculadora</title>
   </head>
   <body>
@@ -14,14 +17,14 @@
     <main>
         <div class="calculadora">
           <table id="tabela-calc">
-            <form class="" action="" method="get">
+            <form name="form-calculadora" class="" action="" method="get">
               <tr>
                 <td>
-                  <input type="text" name="" value="" class="ImprimirValor">
+                  <input type="text" name="ImprimirValor" value="" class="ImprimirValor">
                 </td>
               </tr>
               <tr>
-                <td class="button"><input type="button" name="sete" value="7"></td>
+                <td class="button"><input type="button" name="sete" value="7" onclick="botao()"></td>
                 <td class="button"><input type="button" name="oito" value="8"></td>
                 <td class="button"><input type="button" name="nove" value="9"></td>
                 <td class="button"><input type="button" name="divisao" value="/"></td>
