@@ -17,35 +17,35 @@
     <main>
         <div class="calculadora">
           <table id="tabela-calc">
-            <form name="form-calculadora" class="" action="" method="get">
+            <form name="formcalc" class="" action="">
               <tr>
                 <td>
                   <input type="text" name="ImprimirValor" value="" class="ImprimirValor">
                 </td>
               </tr>
               <tr>
-                <td class="button"><input type="button" name="sete" value="7" onclick="botao()"></td>
-                <td class="button"><input type="button" name="oito" value="8"></td>
-                <td class="button"><input type="button" name="nove" value="9"></td>
-                <td class="button"><input type="button" name="divisao" value="/"></td>
+                <td class="button"><input type="button" name="sete" value="7" onclick="botao(value);"></td>
+                <td class="button"><input type="button" name="oito" value="8" onclick="botao(value);"></td>
+                <td class="button"><input type="button" name="nove" value="9" onclick="botao(value);"></td>
+                <td class="button"><input type="button" name="divisao" value="/" onclick="botao(value);"></td>
               </tr>
               <tr>
-                <td class="button"><input type="button" name="quatro" value="4"></td>
-                <td class="button"><input type="button" name="cinco" value="5"></td>
-                <td class="button"><input type="button" name="seis" value="6"></td>
-                <td class="button"><input type="button" name="multiplicacao" value="*"></td>
+                <td class="button"><input type="button" name="quatro" value="4" onclick="botao(value);"></td>
+                <td class="button"><input type="button" name="cinco" value="5" onclick="botao(value);"></td>
+                <td class="button"><input type="button" name="seis" value="6" onclick="botao(value);"></td>
+                <td class="button"><input type="button" name="multiplicacao" value="*" onclick="botao(value);"></td>
               </tr>
               <tr>
-                <td class="button"><input type="button" name="um" value="1"></td>
-                <td class="button"><input type="button" name="dois" value="2"></td>
-                <td class="button"><input type="button" name="tres" value="3"></td>
-                <td class="button"><input type="button" name="subtracao" value="-"></td>
+                <td class="button"><input type="button" name="um" value="1" onclick="botao(value);"></td>
+                <td class="button"><input type="button" name="dois" value="2" onclick="botao(value);"></td>
+                <td class="button"><input type="button" name="tres" value="3" onclick="botao(value);"></td>
+                <td class="button"><input type="button" name="subtracao" value="-" onclick="botao(value);"></td>
               </tr>
               <tr>
-                <td class="button"><input type="button" name="zero" value="0"></td>
-                <td class="button"><input type="button" name="limpar" value="C"></td>
-                <td class="button"><input type="button" name="igual" value="="></td>
-                <td class="button"><input type="button" name="adicao" value="+"></td>
+                <td class="button"><input type="button" name="zero" value="0" onclick="botao(value);"></td>
+                <td class="button"><input type="button" name="limpar" value="C" onclick="limparValor()"></td>
+                <td class="button"><input type="button" name="igual" value="=" onclick="resultadoCalc();"></td>
+                <td class="button"><input type="button" name="adicao" value="+" onclick="botao(value);"></td>
               </tr>
               </form>
           </table>
